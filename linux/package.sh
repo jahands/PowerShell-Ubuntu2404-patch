@@ -18,6 +18,8 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>
 #
 
+# Copied from upstream: https://github.com/rhubarb-geek-nz/PowerShell/commit/5e643b7096a923b6af0db563c80c0911177c218d
+
 . /etc/os-release
 
 PACKAGE=powershell
