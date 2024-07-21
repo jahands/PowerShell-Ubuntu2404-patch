@@ -53,6 +53,11 @@ rm -rf control data
 
 cleanup()
 {
+	rm -rf control data
+	./patch.sh control.tar* data.tar* debian-binary
+	rm powershell*linux*.deb
+	rm powershell*linux*.tar*
+	rm powershell*.deb_*.deb
 	for d in data control rpms
 	do
 		if test -d "$d"
