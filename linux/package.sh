@@ -64,9 +64,6 @@ cleanup()
 		fi
 	done
 	rm -rf data.tar.xz control.tar.xz debian-binary  "${SRCPKG}" "${SRCTAR}" rpm.spec
-	rm powershell*linux*.deb
-	rm powershell*linux*.tar*
-	rm powershell*.deb_*.deb
 }
 
 trap cleanup 0

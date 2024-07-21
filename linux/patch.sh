@@ -43,6 +43,8 @@ test -n "$MAINTAINER"
 clean()
 {
 	rm -rf data.tar* control.tar* debian-binary control
+	rm powershell*linux*.tar*
+	rm powershell*.deb_*.deb
 }
 
 trap clean 0
